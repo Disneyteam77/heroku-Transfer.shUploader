@@ -7,10 +7,10 @@ import datetime
 import aiohttp
 import asyncio
 
-api_id = int("API ID")
-api_hash = "API HASH"
-bot_token = "BOT TOKEN"
-
+api_id = int(os.environ.get("API ID"))
+api_hash = os.environ.get("API HASH")
+bot_token =os.environ.get("BOT TOKEN"
+                          
 download_path = "Downloads/"
 
 bot = TelegramClient('Uploader bot', api_id, api_hash).start(bot_token=bot_token)
