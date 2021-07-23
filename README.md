@@ -11,7 +11,6 @@
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
 
 `API_ID` You Can Get it from [here](https://my.telegram.org/) .
 
