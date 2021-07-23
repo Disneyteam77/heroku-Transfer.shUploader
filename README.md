@@ -37,3 +37,5 @@ To run this project, you will need to add the following environment variables to
 
 - [Jhonata Poma](https://github.com/bomba5) For His [TransferBot](https://github.com/bomba5/TransferBot)
 
+Star Repo Deploy & Enjoy !!
+
