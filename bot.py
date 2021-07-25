@@ -24,7 +24,7 @@ async def start(event):
             "Support":"https://t.me/safothebot",
             "Dev":"https://t.me/AmiFutami",
             "Source code":" https://github.com/Achu2234/heroku-Transfer.shUploader"}
-    buttons = [[Button.ur(k, v)] for k,v in dict_.items()]
+    buttons = [[Button.url(k, v)] for k,v in dict_.items()]
 
     await event.respond('Hi!\nMy Name Is Transfer Uploader Bot Sent any file or direct download link to upload and get the transfer.sh download link Bot Made by @AmiFutami', buttons=buttons)
     raise events.StopPropagation
