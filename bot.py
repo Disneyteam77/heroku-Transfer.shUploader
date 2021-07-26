@@ -26,7 +26,7 @@ async def start(event):
             "Backup Channel":"https://t.me/disneygroubackup"}
     buttons = [[Button.url(k, v)] for k,v in dict_.items()]
 
-    await event.respond('Hi!\nMy Name Is Disney Team Transfer Uploader Bot Send me any file or direct download link and I upload and get the transfer.sh download link Bot Made by ❤ In 🇮🇳India by [Doreamonfans]("https://t.me/doreamonfans2")', buttons=buttons)
+    await event.respond('Hi!\nMy Name Is Disney Team Transfer Uploader Bot Send me any file or direct download link and I upload and get the transfer.sh download link Bot Made by ❤ In 🇮🇳India by [Doreamonfans](https://t.me/doreamonfans2)', buttons=buttons)
     raise events.StopPropagation
 
 @bot.on(events.NewMessage)
