@@ -22,7 +22,7 @@
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/disneyteam77/heroku-Transfer.shUploader)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/disneyteam77/heroku-Transfer.shUploader/tree/patch-1)
 
 Star Repo Deploy & Enjoy !!
 
