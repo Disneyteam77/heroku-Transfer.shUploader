@@ -26,7 +26,7 @@ async def start(event):
             "Backup Channel":"https://t.me/disneygroubackup"}
     buttons = [[Button.url(k, v)] for k,v in dict_.items()]
 
-    await event.respond('Hi!\nMy Name Is Disney Team Transfer Uploader Bot Send me any file or direct download link and I upload and get the transfer.sh download link Bot Made by ❤ In 🇮🇳India by [Doreamonfans](https://t.me/doreamonfans2)', buttons=buttons)
+    await event.respond('Hi!\nMy Name Is Disney Team Transfer Uploader Bot Send me any file or direct download link and I upload and get the transfer.sh download link Bot Made by ❤ In 🇮🇳India by [Doreamonfans]("https://t.me/doreamonfans2")', buttons=buttons)
     raise events.StopPropagation
 
 @bot.on(events.NewMessage)
@@ -54,7 +54,7 @@ async def echo(update):
             await msg.edit("Download finish!\n\n**Now uploading plz wait😍...**")
             download_link, final_date, size = await send_to_transfersh_async(file_path, msg)
             name = os.path.basename(file_path)
-            await msg.edit(f"**Name: **`{name}`\n**Size:** `{size}`\n**Link:** {download_link} /n**Owner:** [Doreamonfans1](https://t.me/doreamonfans1)")
+            await msg.edit(f"**Name: **`{name}`\n**Size:** `{size}`\n**Link:** {download_link} \n**Owner:** [Doreamonfans1](https://t.me/doreamonfans1)")
         except Exception as e:
             print(e)
             await msg.edit(f"Uploading Failed\n\n**Error:** {e}")
