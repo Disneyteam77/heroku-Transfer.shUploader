@@ -22,19 +22,9 @@
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/heroku-Transfer.shUploader)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/disneyteam77/heroku-Transfer.shUploader)
 
 
-
-
-## Creator
-
-- [Achu biju](https://github.com/Achu2234/HentaiMangaBot)
-
-
-## Thanks To
-
-- [Jhonata Poma](https://github.com/bomba5) For His [TransferBot](https://github.com/bomba5/TransferBot)
 
 Star Repo Deploy & Enjoy !!
 
